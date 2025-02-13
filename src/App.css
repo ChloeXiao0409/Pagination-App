@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 80%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  border: 1px solid lightgrey;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+.page-link {
+  color: blue;
+  background-color: whitesmoke;
+  border: 1px solid skyblue;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active-page {
+  background-color: powderblue;
+  color: aliceblue;
+}
